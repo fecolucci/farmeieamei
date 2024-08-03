@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    /* background-color: #f7f7e7 */
+    font-family: Arial, sans-serif;
+    color: #623f29;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background-color: #f8e9e3;
+    padding: 2em 0; /* Espaçamento acima e abaixo do texto */
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1); /* Sombra leve para destaque */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em 0;    
+    position: relative; /* Adiciona um contexto de posicionamento para z-index */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1; /* Garante que o menu fique abaixo do botão */
+    position: absolute; /* Permite que o menu se sobreponha ao conteúdo */
+    width: 100%
+    }   
+
+.hamburger {
+    font-size: 2em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+    z-index: 2; /* Garante que o botão fique acima do menu */
+    position: relative;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.preco {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.product {
+    background-color: #f8e9e3;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    max-width: 700px;
+}
+
+.carousel img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f8e9e3;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #e8b7a2;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #623f29;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(232, 183, 162, 0.8);
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    
+    .hamburger {
+        display: block; /* Mostra o botão no mobile */
+    }
+
+    .menu.open {
+        display: flex; /* Mostra o menu quando está aberto */
+    }
+
+    .menu {
+        display: none; /* Esconde o menu no mobile */
+        flex-direction: column;
+        position: absolute;
+        top: 3.5em;
+        left: 0;
+        width: 75%;
+        background-color: rgba(248, 233, 227, 0.8); /* Fundo com transparência de 80% */;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+        padding: 1em 0;
+    }
+
+    .main {
+        padding: 0.3em;
+    }
+
+    .main-p {
+        margin: 0;
+        padding: 1em 0;
+        text-align: center;
+    }
+    
+    .menu-item {
+        border-bottom: 1px solid #d8cfc4; /* Leve traço abaixo de cada item */
+        width: 100%;
+    }
+    
+    /* Remove o traço do último item */
+    .menu-item:last-child {
+        border-bottom: none;
+    }
+}
