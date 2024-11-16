@@ -1,7 +1,7 @@
 const products = [
     {
         name: "Vestido Longo Patch Marias",
-        price: "R$ 220,00",
+        price: "R$ 250,00",
         images: [
             "imagem/1A-vestido-patch-marias-v2.jpg",
             "imagem/1B-vestido-patch-marias.jpeg",
@@ -10,7 +10,7 @@ const products = [
     },
     {
         name: "Vestido de Malha Floresta De Cor",
-        price: "R$ 220,00",
+        price: "R$ 230,00",
         images: [
             "imagem/2A-vestido-malha-floresta-de-cor.jpg",
             "imagem/2B-vestido-malha-floresta-de-cor.jpg",
@@ -25,7 +25,7 @@ const products = [
     },
     {
         name: "Vestido Curto ML Mix de Inverno",
-        price: "R$ 220,00",
+        price: "R$ 250,00",
         images: [
             "imagem/4A-vestido-mix-de-inverno.jpg",
             "imagem/4B-vestido-mix-de-inverno.jpg",
@@ -40,7 +40,7 @@ const products = [
     },
     {
         name: "Vestido Curto ML Na Selva",
-        price: "R$ 220,00",
+        price: "R$ 250,00",
         images: [
             "imagem/6A-vestido-na-selva.jpg",
             "imagem/6B-vestido-na-selva.jpg",
@@ -54,7 +54,7 @@ const products = [
     },
     {
         name: "Vestido Curto Carnaval das Águas",
-        price: "R$ 220,00",
+        price: "R$ 250,00",
         images: [
             "imagem/9A-vestido-carnaval-das-aguas.jpg",
             "imagem/9B-vestido-carnaval-das-aguas.jpg",
@@ -68,7 +68,7 @@ const products = [
     },
     {
         name: "Macacao Banho De Rio",
-        price: "R$ 280,00",
+        price: "R$ 300,00",
         images: [
             "imagem/11A-macacao-banho-de-rio.jpg",
             "imagem/11B-macacao-banho-de-rio.jpg",
@@ -78,7 +78,7 @@ const products = [
     },
     {
         name: "Macacao Terra Dos Abacaxis",
-        price: "R$ 280,00",
+        price: "R$ 300,00",
         images: [
             "imagem/13A-macacao-terra-dos-abacaxis.jpg",
             "imagem/13B-macacao-terra-dos-abacaxis.jpg",
@@ -86,21 +86,10 @@ const products = [
             "imagem/13D-macacao-terra-dos-abacaxis.jpg"
         ]
     },
-    {
-        name: "Calça Pantalona Aquarela Tropical",
-        price: "R$ 250,00",
-        images: [
-            "imagem/15A-calça-pantalona-aquarela-tropical.jpg",
-            "imagem/15B-calça-pantalona-aquarela-tropical.jpg",
-            "imagem/15C-calça-pantalona-aquarela-tropical.jpg",
-            "imagem/14A-calça-pantalona-aquarela-tropical.jpg",
-            "imagem/14B-calça-pantalona-aquarela-tropical.jpg",
-            "imagem/14C-calça-pantalona-aquarela-tropical.jpg",
-        ]
-    },
+    
     {
         name: "Top Double Lagostinha",
-        price: "R$ 90,00",
+        price: "R$ 100,00",
         images: [
             "imagem/16A-top-um-ombro-so-saia-lagostinha.jpg",
             "imagem/16B-top-um-ombro-so-saia-lagostinha.jpg",
@@ -110,7 +99,7 @@ const products = [
     },
     {
         name: "Saia Midi Transpassada Lagostinha",
-        price: "R$ 200,00",
+        price: "R$ 220,00",
         images: [
             "imagem/17B-top-um-ombro-so-saia-lagostinha-v2.jpg",
             "imagem/17A-top-um-ombro-so-saia-lagostinha-v2.jpg",
@@ -120,7 +109,7 @@ const products = [
     },
     {
         name: "Top Recortes Relicario",
-        price: "R$ 80,00",
+        price: "R$ 90,00",
         images: [
             "imagem/20-A-top-relicario.jpg",
             "imagem/20-B-top-relicario.jpg",
@@ -134,7 +123,7 @@ const products = [
     },
     {
         name: "Saia Midi Transpassada Relicario",
-        price: "R$ 200,00",
+        price: "R$ 220,00",
         images: [
             "imagem/18A-saia-midi-transpasse-relicario.jpg",
             "imagem/18B-saia-midi-transpasse-relicario.jpg",
@@ -148,7 +137,7 @@ const products = [
     },
     {
         name: "Top Babado Caju Ceu",
-        price: "R$ 80,00",
+        price: "R$ 90,00",
         images: [
             "imagem/21A-top-babado-caju-ceu.jpg",
             "imagem/21B-top-babado-caju-ceu.jpg",
@@ -159,7 +148,7 @@ const products = [
     },
     {
         name: "Top Babado Bordando Flor",
-        price: "R$ 80,00",
+        price: "R$ 90,00",
         images: [
             "imagem/22A-top-babado-bordando-flor.jpg",
             "imagem/22B-top-babado-bordando-flor.jpg",
@@ -168,7 +157,7 @@ const products = [
     },
     {
         name: "Top Double Coqueirinhos",
-        price: "R$ 90,00",
+        price: "R$ 100,00",
         images: [
             "imagem/24A-top-dupla-face-coqueirinhos.jpg",
             "imagem/24B-top-dupla-face-coqueirinhos.jpg",
@@ -195,7 +184,7 @@ const products = [
     },
     {
         name: "Top Alça Canelado Mostarda",
-        price: "R$ 70,00",
+        price: "R$ 80,00",
         images: [
             "imagem/25A-top-canelado-am.jpg",
             "imagem/25B-top-canelado-am.jpg"
@@ -204,7 +193,7 @@ const products = [
     },
     {
         name: "Blusa Floral Artesanal Transpassada",
-        price: "R$ 90,00",
+        price: "R$ 100,00",
         images: [
             "imagem/27-blusa-floral-artesanal-transpassada.jpg",
             "imagem/26A-blusa-floral-artesanal-transpassada.jpg",
@@ -217,7 +206,7 @@ const products = [
     },
     {
         name: "Cropped Rib Terracota",
-        price: "R$ 80,00",
+        price: "R$ 90,00",
         images: [
             "imagem/28A-cropped-rib-terracota.jpg",
             "imagem/28B-cropped-rib-terracota.jpg",
@@ -229,7 +218,7 @@ const products = [
     },
     {
         name: "Top Babado Duplo Preto",
-        price: "R$ 80,00",
+        price: "R$ 90,00",
         images: [
             "imagem/29A-top-babado-duplo-preto.jpg",
             "imagem/29B-top-babado-duplo-preto.jpg",
@@ -239,7 +228,7 @@ const products = [
     },
     {
         name: "Body Frufru Floral Pintado",
-        price: "R$ 100,00",
+        price: "R$ 120,00",
         images: [
             "imagem/30A-body-frufru-floral-pintado.jpg",
             "imagem/30B-body-frufru-floral-pintado.jpg",
@@ -248,7 +237,86 @@ const products = [
             "imagem/31-body-frufru-floral-pintado.jpg"
 
         ]
+    },
+    {
+        name: "Short Elástico Onça Primaveril",
+        price: "R$ 120,00",
+        images: [
+            "imagem/37A-short-elastico-onca-primaveril.jpg",
+            "imagem/37B-short-elastico-onca-primaveril.jpg",
+            "imagem/37C-short-elastico-onca-primaveril.jpg",
+            "imagem/37D-short-elastico-onca-primaveril.jpg",
+            "imagem/37E-short-elastico-onca-primaveril.jpg"
+
+        ]
+    },
+    {
+        name: "Blusa Cropped Decote V Aquarela Tropical",
+        price: "R$ 110,00",
+        images: [
+            "imagem/33A-blusa-cropped-decote-v-aquarela-tropical.jpg",
+            "imagem/33B-blusa-cropped-decote-v-aquarela-tropical.jpg",
+            "imagem/z1-conjunto1-aquarela-tropical.jpg",
+            "imagem/z2-conjunto1-aquarela-tropical.jpg",
+            "imagem/z3-conjunto1-aquarela-tropical.jpg",
+            "imagem/zzz1-conjunto3-aquarela-tropical.jpg",
+            "imagem/zzz2-conjunto3-aquarela-tropical.jpg"
+        ]
+    },
+    {
+        name: "Top Cropped Lastex Aquarela tropical",
+        price: "R$ 100,00",
+        images: [
+            "imagem/34A-top-cropped-lastex-aquarela-tropical.jpg",
+            "imagem/34B-top-cropped-lastex-aquarela-tropical.jpg",
+            "imagem/zz1-conjunto2-aquarela-tropical.jpg",
+            "imagem/zz2-conjunto2-aquarela-tropical.jpg",
+            "imagem/zzzz1-conjunto4-aquarela-tropical.jpg",
+            "imagem/zzzz2-conjunto4-aquarela-tropical.jpg"
+
+        ]
+    },
+    {
+        name: "Calça Pantalona Aquarela Tropical",
+        price: "R$ 250,00",
+        images: [
+            "imagem/15A-calça-pantalona-aquarela-tropical.jpg",
+            "imagem/15B-calça-pantalona-aquarela-tropical.jpg",
+            "imagem/15C-calça-pantalona-aquarela-tropical.jpg",
+            "imagem/14A-calça-pantalona-aquarela-tropical.jpg",
+            "imagem/14B-calça-pantalona-aquarela-tropical.jpg",
+            "imagem/14C-calça-pantalona-aquarela-tropical.jpg"
+        ]
+    },
+    {
+        name: "Calça Pantalona Moletom Aquarela tropical",
+        price: "R$ 230,00",
+        images: [
+            "imagem/35A-calca-pantalona-moletom-aquarela-tropical.jpg",
+            "imagem/35B-calca-pantalona-moletom-aquarela-tropical.jpg",
+            "imagem/35C-calca-pantalona-moletom-aquarela-tropical.jpg",
+            "imagem/zzz1-conjunto3-aquarela-tropical.jpg",
+            "imagem/zzz2-conjunto3-aquarela-tropical.jpg",
+            "imagem/zzzz1-conjunto4-aquarela-tropical.jpg",
+            "imagem/zzzz2-conjunto4-aquarela-tropical.jpg"
+
+
+        ]
+    },
+    {
+        name: "Short Elástico Aquarela tropical",
+        price: "R$ 120,00",
+        images: [
+            "imagem/36A-short-elastico-aquarela-tropical.jpg",
+            "imagem/36B-short-elastico-aquarela-tropical.jpg",
+            "imagem/36C-short-elastico-aquarela-tropical.jpg",
+            "imagem/36D-short-elastico-aquarela-tropical.jpg",
+            "imagem/36E-short-elastico-aquarela-tropical.jpg",
+            "imagem/z1-conjunto1-aquarela-tropical.jpg"
+
+        ]
     }
+
 ];
 
 const productsContainer = document.getElementById("products");
